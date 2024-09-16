@@ -17,6 +17,7 @@ KCM.SimpleKCM {
     property alias cfg_showLobeChat: showLobeChat.checked
     property alias cfg_showBigAGI: showBigAGI.checked
     property alias cfg_showClaude: showClaude.checked
+    property alias cfg_show1MinAI: show1MinAI.checked
     property alias cfg_hideHeader: hideHeader.checked
     property alias cfg_hideGoToButton: hideGoToButton.checked
     property alias cfg_hideKeepOpen: hideKeepOpen.checked
@@ -112,6 +113,14 @@ KCM.SimpleKCM {
                 id: showClaude
 
                 text: qsTr("Claude")
+            }
+        }
+
+        RowLayout {
+            QQC2.CheckBox {
+                id: show1MinAI
+
+                text: qsTr("1MinAI")
             }
         }
 

@@ -66,6 +66,14 @@ KCM.SimpleKCM {
         }
 
         QQC2.RadioButton {
+            id: useFilledChatIcon
+
+            text: i18nc("@option:radio", "Filled chat's icon")
+
+            QQC2.ButtonGroup.group: iconGroup
+        }
+
+        QQC2.RadioButton {
             id: useColorfulChatIcon
 
             text: i18nc("@option:radio", "Colorful chat's icon")

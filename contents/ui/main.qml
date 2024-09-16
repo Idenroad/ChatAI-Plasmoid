@@ -16,7 +16,8 @@ PlasmoidItem {
         { id: "perplexity", url: "https://www.perplexity.ai", text: "Perplexity", prop: "showPerplexity" },
         { id: "lobechat", url: "https://lobechat.com/chat", text: "LobeChat", prop: "showLobeChat" },
         { id: "bigagi", url: "https://get.big-agi.com", text: "Big-AGI", prop: "showBigAGI" },
-        { id: "claude", url: "https://claude.ai/new", text: "Claude", prop: "showClaude" }
+        { id: "claude", url: "https://claude.ai/new", text: "Claude", prop: "showClaude" },
+        { id: "1minai", url: "https://app.1min.ai", text: "1MinAI", prop: "show1MinAI" }
     ]
 
     compactRepresentation: CompactRepresentation {
