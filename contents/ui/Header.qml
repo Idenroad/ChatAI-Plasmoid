@@ -68,8 +68,8 @@ RowLayout {
             onShowBigAGIChanged: renderChatModel()
             onShowBlackBoxChanged: renderChatModel()
             onShowBingCopilotChanged: renderChatModel()
-            onShowClaude: renderChatModel()
-            onShow1MinAI: renderCharModel()
+            onShowClaudeChanged: renderChatModel()
+            onShow1MinAIChanged: renderCharModel()
         }
     }
 
