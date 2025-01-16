@@ -40,6 +40,14 @@ KCM.SimpleKCM {
 
             QQC2.ButtonGroup.group: iconGroup
         }
+              
+        QQC2.RadioButton {
+            id: useOutlinedChatIcon
+
+            text: i18nc("@option:radio", "Outlined chat's icon")
+
+            QQC2.ButtonGroup.group: iconGroup
+        }
 
         QQC2.RadioButton {
             id: useDefaultLightIcon
