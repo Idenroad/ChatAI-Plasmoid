@@ -18,6 +18,7 @@ PlasmoidItem {
         { id: "bigagi", url: "https://get.big-agi.com", text: "Big-AGI", prop: "showBigAGI" },
         { id: "claude", url: "https://claude.ai/new", text: "Claude", prop: "showClaude" },
         { id: "1minai", url: "https://app.1min.ai", text: "1MinAI", prop: "show1MinAI" }
+        { id: "ninjaai", url: "https://myninja.ai", text: "NinjaAI", prop: "showNinjaAI" }
     ]
 
     compactRepresentation: CompactRepresentation {
