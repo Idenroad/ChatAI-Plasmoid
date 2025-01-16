@@ -70,6 +70,7 @@ RowLayout {
             onShowBingCopilotChanged: renderChatModel()
             onShowClaudeChanged: renderChatModel()
             onShow1MinAIChanged: renderCharModel()
+            onShowNinjaAIChanged: renderCharModel()
         }
     }
 
