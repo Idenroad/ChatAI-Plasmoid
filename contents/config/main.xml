@@ -73,8 +73,8 @@
     <entry name="show1MinAI" type="Bool">
       <default>false</default>
     </entry>
-    <entry name="showjaAI" type="Bool">
-    <default>false</default>   
+    <entry name="showNinjaAI" type="Bool">
+      <default>false</default>
     </entry>
     <entry name="hideHeader" type="Bool">
       <default>false</default>
